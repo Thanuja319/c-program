@@ -1,0 +1,18 @@
+/*length of the string*/
+#include<stdio.h>
+int main()
+{
+	char str[20],*pt;
+	int i=0;
+	printf("find lenght length of string\n");
+	printf("enter the any string[below 20 char:]");
+	gets(str);
+	pt=str;
+	while(*pt!='0')
+	{
+		i++;
+		pt++;
+	}
+printf("length of the string:%d",i);
+return 0;
+}
