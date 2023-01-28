@@ -1,0 +1,17 @@
+/*length of the string*/
+#include<stdio.h>
+int main()
+{
+	char str[1000],*pt;
+	int i=0;
+	printf("enter the any string:");
+	gets(str);
+	pt=str;
+	while(*pt!='\0')
+	{
+		i++;
+		pt++;
+	}
+	printf("length of the string:%d",i);
+return 0;
+}
