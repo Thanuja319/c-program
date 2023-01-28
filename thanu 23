@@ -1,0 +1,22 @@
+ /*negative  numbers in an array of numbers*/
+ #include<stdio.h> 
+ int main() 
+ { 
+         int size,i,a[10]; 
+         printf("\n enter the size of an array:"); 
+         scanf("%d",&size); 
+         printf("\n enter the array elements:"); 
+         for(i=0;i<size;i++) 
+         { 
+         scanf("%d",&a[i]); 
+ } 
+ printf("\nlist of negative numbers in this array:"); 
+ for(i=0;i<size;i++) 
+ { 
+         if(a[i]<0) 
+         { 
+                 printf("%d",a[i]); 
+         } 
+ } 
+ return 0; 
+ }
